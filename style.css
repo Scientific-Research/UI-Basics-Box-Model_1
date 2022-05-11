@@ -1,0 +1,48 @@
+#id1 {
+  text-shadow: 2px 2px rgb(148, 29, 29);
+}
+#id2 {
+  text-shadow: 2px 2px 5px rgb(196, 7, 7);
+}
+#id3 {
+  text-shadow: 2px 2px 4px #000000;
+  color: white;
+}
+#id4 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+#id5 {
+  color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+div {
+  width: 300px;
+  height: 100px;
+  margin-top: 50px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  position: relative;
+}
+
+#example1 {
+  border: 1px solid;
+  box-shadow: 5px 10px 5px;
+}
+
+#example2 {
+  border: 1px solid;
+  box-shadow: 5px 10px 5px gray;
+}
+
+#example3 {
+  border: 1px solid;
+  box-shadow: 5px 10px 5px red;
+}
+
+#example4 {
+  border: 1px solid;
+  box-shadow: -5px -10px 5px green;
+}
